@@ -1,0 +1,117 @@
+#formulario{
+    font: normal 10pt Arial;
+    background: rgb(255, 255, 255);
+    width: 380px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+
+    }
+
+body{
+    background: rgb(233, 233, 233);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 350px;
+    position: relative;
+}
+
+#txtemail, #txtsenha {
+    width: 350px;
+    height: 45px;
+    margin-top: 10px;
+    border-style:solid;
+    border-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#login{
+    width: 355px;
+    height: 45px;
+    margin-top: 8px;
+    background: rgb(38, 125, 255);
+    border: none;
+    color: white;
+    font: bold 15pt Arial;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+#forget{
+    margin-top: 20px;
+
+}
+
+.link-sem-estilo{
+    color: rgb(106, 103, 255);
+    text-decoration:none;;
+    cursor: pointer
+    
+}
+
+.link-sem-estilo:hover{
+
+    color: rgb(53, 50, 241);
+    text-decoration:underline;
+    cursor: pointer
+}
+
+#registro{
+    width: auto;
+    height: 45px;
+    margin-top: 20px;
+    background: rgb(13, 189, 13);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font: bold 12pt Arial;
+    padding: 10px;
+    
+}
+
+.linha{
+    margin-top: 25px;
+    border: 1px solid lightgrey;
+    width: 360px;
+
+}
+
+#logo{
+    position: absolute;
+    top: 31%;
+    left: 12%;
+    width: 350px;
+
+
+}
+
+#texto-logo{
+    margin-bottom: 20px;
+    margin-left: 215px;
+    font: normal 20pt Arial;
+    color: black;
+    word-wrap: break-word;
+    width: 40%;
+}
+
+input{
+    padding-left: 15px; 
+}
+
+#login:hover{
+    cursor: pointer;
+    background-color: rgb(65, 65, 231);
+}
+
+#registro:hover{
+    cursor: pointer;
+    background-color: rgb(19, 172, 19);
+}

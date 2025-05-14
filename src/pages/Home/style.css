@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  flex-direction: column;
+  background-color: #480ca8;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight:500;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 50%;
+  width: 420px;
+  margin-bottom: 20px;
+}
+
+form p {
+  color: #666;
+  margin-top: -12px;
+}
+
+
+form button {
+  border-radius: 5px;
+  background-color: #f72585;
+  color: white;
+  border: none;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+
+form button:hover {
+  background-color: #ff6224;
+}
+
+form input{
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  height: 40px;
+  color: #000000;
+  font-size: 16px;
+  padding-left: 10px;
+  outline: none;
+}
+
+
+form label{
+  color: black;
+  margin-bottom: -25px;
+  margin-top: -10px;
+  font-weight: 500;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  width: 420px;
+  border-radius: 10px;
+}
+
+.card p{
+  color: #f72585;
+  font-weight: bold;
+}
+
+.card p span{
+  color: black;
+  font-weight: normal;
+}
+
+.card button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.card button:hover{
+  opacity: 0.6;
+}
