@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
 import './style.css'
-import api from './services/api.js'
+import api from '../../services/api.js'
 import { useEffect } from 'react'
 
 
